@@ -19,6 +19,9 @@ const Navbar = () => {
           <Link as={RouterLink} to="/about" color="white" mx={2}>
             About
           </Link>
+          <Link as={RouterLink} to="/register" color="white" mx={2}>
+            Register
+          </Link>
         </Flex>
       </Flex>
     </Box>

@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Index from "./pages/Index.jsx";
 import Categories from "./pages/Categories";
 import About from "./pages/About";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
       <Route path="/categories" element={<Categories />} />
         <Route path="/about" element={<About />} />
+      <Route path="/register" element={<Register />} />
       </Routes>
       <Footer />
     </Router>
